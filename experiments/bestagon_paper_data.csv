@@ -1,0 +1,16 @@
+              benchmark , layout width (in tiles) , layout height (in tiles) , layout area (in tiles) , SiDB dots ,  layout area in nm² 
+        trindade16/xor2 ,2,3,6,58,             2403.98 
+       trindade16/xnor2 ,2,3,6,58,             2403.98 
+     trindade16/par_gen ,3,4,12,103,             4830.22 
+       trindade16/mux21 ,3,6,18,196,             7258.52 
+   trindade16/par_check ,4,7,28,284,            11312.68 
+,,,,,
+       fontes18/xor5_r1 ,5,6,30,232,            12124.57 
+       fontes18/xor5Maj ,5,6,30,244,            12124.57 
+             fontes18/t ,5,8,40,426,            16180.79 
+           fontes18/t_5 ,5,8,40,448,            16180.79 
+           fontes18/c17 ,5,8,40,396,            16180.79 
+      fontes18/majority ,5,11,55,651,            22265.12 
+ fontes18/majority_5_r1 ,5,12,60,737,            24293.23 
+       fontes18/cm82a_5 ,5,15,75,1211,            30377.56 
+        fontes18/newtag ,8,10,80,651,            32419.82 
