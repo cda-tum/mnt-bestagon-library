@@ -1,6 +1,6 @@
 # Hexagons are the Bestagons: Design Automation for Silicon Dangling Bond Logic
 
-This repository provides complimentary data for the paper *Hexagons are the Bestagons: Design Automation for Silicon
+This repository provides supplementary data for the paper *Hexagons are the Bestagons: Design Automation for Silicon
 Dangling Bond Logic* by M. Walter, S. S. H. Ng, K. Walus, and R. Wille published in DAC 2022.
 
 ## ML-generated SiDB *Bestagon* Gates
