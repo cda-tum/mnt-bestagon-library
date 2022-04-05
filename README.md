@@ -3,9 +3,31 @@
 This repository provides supplementary data for the paper *Hexagons are the Bestagons: Design Automation for Silicon
 Dangling Bond Logic* by M. Walter, S. S. H. Ng, K. Walus, and R. Wille published in DAC 2022.
 
-## ML-generated SiDB *Bestagon* Gates
+## SiDB *Bestagon* Gates
 
-TODO
+All of the gates proposed as part of the *Bestagon* gate library are included in the `bestagon-gates` directory. Sub-directories follow a naming convention of `NiMo_G[_O]` where `N` denotes the count of inputs, `M` the count of outputs, `G` the logic type implemented, and `_O` an optional suffix denoting the orientation of the gate. For example, `2i1o_nand` refers to a 2-input 1-output NAND logic gate.
+
+Inside each subdirectory, the following files are included:
+* One or more `*.sqjx.zip` files containing the simulation results of all logic input permutations which you can visualize in SiQAD by navigating to File, Import Past Results
+* One or more `*.svg` files containing a vector graphics screenshot of all logic input permutations which you can open in Inkscape or other vector graphics editors/viewers
+* One `*.sqd` design file which you can open in SiQAD
+
+The following gates are designed by a reinforcement learning agent described (TODO: add arXiv link):
+* `1i2o_fo2` (fanout)
+* `2i1o_and`
+* `2i1o_nand`
+* `2i1o_nor`
+* `2i1o_or`
+* `2i1o_xnor`
+* `2i2o_cx`
+* `2i2o_ha`
+
+The following gates are manually designed:
+* `1i1o_inv_diag`
+* `1i1o_inv_straight`
+* `1i1o_wire_diag`
+* `1i1o_wire_straight`
+* `2i2o_hourglass` (two wires running top to down in parallel)
 
 ## Experimental Evaluation: Physical Design of SiDB Layouts
 
