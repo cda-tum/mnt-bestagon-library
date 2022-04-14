@@ -12,7 +12,7 @@ Inside each subdirectory, the following files are included:
 * One or more `*.svg` files containing a vector graphics screenshot of all logic input permutations which you can open in Inkscape or other vector graphics editors/viewers
 * One `*.sqd` design file which you can open in SiQAD
 
-The following gates are designed by a reinforcement learning agent described (TODO: add arXiv link):
+The following gates are designed by a reinforcement learning agent ([arXiv reference](https://arxiv.org/abs/2204.06288)):
 * `1i2o_fo2` (fanout)
 * `2i1o_and`
 * `2i1o_nand`
