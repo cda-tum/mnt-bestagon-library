@@ -6,7 +6,7 @@
         <available_at>https://github.com/marcelwa/fiction</available_at>
         <date>Wed Mar  9 14:36:08 2022</date>
     </program>
-<layers>
+    <layers>
         <layer_prop>
             <name>Lattice</name>
             <type>Lattice</type>
@@ -3310,5 +3310,6 @@
                 <latcoord n="424" m="40" l="0"/>
                 <color>#ffc8c8c8</color>
             </dbdot>
+        </layer>
     </design>
 </siqad>
