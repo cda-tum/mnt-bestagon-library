@@ -99,6 +99,8 @@ are [available as Verilog files](https://github.com/marcelwa/fiction/tree/main/b
 
 ## Reference
 
+Please find the paper in the [ACM Digital Library](https://dl.acm.org/doi/10.1145/3489517.3530525).
+
 In case you are using the *Bestagon* gate library in your work, we would be thankful if you referred to it by citing the
 following publication:
 
