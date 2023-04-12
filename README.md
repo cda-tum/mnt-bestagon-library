@@ -3,16 +3,37 @@
 This repository provides supplementary data for the paper *Hexagons are the Bestagons: Design Automation for Silicon
 Dangling Bond Logic* by M. Walter, S. S. H. Ng, K. Walus, and R. Wille published in DAC 2022.
 
+You can find a video recording of the DAC 2022 presentation [on YouTube](https://youtu.be/3D8D6IPMHhM) and
+[an overview poster](./poster/thumbnail.png) in this repository.
+
+<p align="center">
+  <a href="https://youtu.be/3D8D6IPMHhM">
+  <img height=500px src="https://img.youtube.com/vi/3D8D6IPMHhM/0.jpg" alt="YouTube: Hexagons are the Bestagons" />
+  </a>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <a href="./poster/poster.pdf">
+  <img height=500px src="./poster/thumbnail.png" alt="Overview Poster" />
+  </a>
+</p>
+
 ## SiDB *Bestagon* Gates
 
-All of the gates proposed as part of the *Bestagon* gate library are included in the `bestagon-gates` directory. Sub-directories follow a naming convention of `NiMo_G[_O]` where `N` denotes the count of inputs, `M` the count of outputs, `G` the logic type implemented, and `_O` an optional suffix denoting the orientation of the gate. For example, `2i1o_nand` refers to a 2-input 1-output NAND logic gate.
+All of the gates proposed as part of the *Bestagon* gate library are included in the `bestagon-gates` directory.
+Sub-directories follow a naming convention of `NiMo_G[_O]` where `N` denotes the count of inputs, `M` the count of
+outputs, `G` the logic type implemented, and `_O` an optional suffix denoting the orientation of the gate. For
+example, `2i1o_nand` refers to a 2-input 1-output NAND logic gate.
 
 Inside each subdirectory, the following files are included:
-* One or more `*.sqjx.zip` files containing the simulation results of all logic input permutations which you can visualize in SiQAD by navigating to File, Import Past Results
-* One or more `*.svg` files containing a vector graphics screenshot of all logic input permutations which you can open in Inkscape or other vector graphics editors/viewers
+
+* One or more `*.sqjx.zip` files containing the simulation results of all logic input permutations which you can
+  visualize in SiQAD by navigating to File, Import Past Results
+* One or more `*.svg` files containing a vector graphics screenshot of all logic input permutations which you can open
+  in Inkscape or other vector graphics editors/viewers
 * One `*.sqd` design file which you can open in SiQAD
 
-The following gates are designed by a reinforcement learning agent ([arXiv reference](https://arxiv.org/abs/2204.06288)):
+The following gates are designed by a reinforcement learning
+agent ([arXiv reference](https://arxiv.org/abs/2204.06288)):
+
 * `1i2o_fo2` (fanout)
 * `2i1o_and`
 * `2i1o_nand`
@@ -23,6 +44,7 @@ The following gates are designed by a reinforcement learning agent ([arXiv refer
 * `2i2o_ha`
 
 The following gates are manually designed:
+
 * `1i1o_inv_diag`
 * `1i1o_inv_straight`
 * `1i1o_wire_diag`
@@ -74,3 +96,18 @@ and
 These networks are established benchmarks in the domain of FCN technologies and
 are [available as Verilog files](https://github.com/marcelwa/fiction/tree/main/benchmarks) in
 *fiction*'s experiment sandbox.
+
+## Reference
+
+In case you are using the Bestagon gate library in your work, we would be thankful if you referred to it by citing the
+following publication:
+
+```bibtex
+@inproceedings{walter2022hexagons,
+  title={{Hexagons are the Bestagons: Design Automation for Silicon Dangling Bond Logic}},
+  author={Walter, Marcel and Ng, Samuel Sze Hang and Walus, Konrad and Wille, Robert},
+  booktitle={Design Automation Conference (DAC)},
+  pages = {739--744},
+  year={2022}
+}
+```
