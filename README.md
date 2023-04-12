@@ -8,11 +8,11 @@ You can find a video recording of the DAC 2022 presentation [on YouTube](https:/
 
 <p align="center">
   <a href="https://youtu.be/3D8D6IPMHhM">
-  <img height=500px src="https://img.youtube.com/vi/3D8D6IPMHhM/0.jpg" alt="YouTube: Hexagons are the Bestagons" />
+  <img height=250px src="https://img.youtube.com/vi/3D8D6IPMHhM/0.jpg" alt="YouTube: Hexagons are the Bestagons" />
   </a>
   &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="./poster/poster.pdf">
-  <img height=500px src="./poster/thumbnail.png" alt="Overview Poster" />
+  <img height=250px src="./poster/thumbnail.png" alt="Overview Poster" />
   </a>
 </p>
 
