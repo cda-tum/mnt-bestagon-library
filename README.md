@@ -10,7 +10,7 @@ You can find a video recording of the DAC 2022 presentation [on YouTube](https:/
   <a href="https://youtu.be/3D8D6IPMHhM">
   <img height=250px src="https://img.youtube.com/vi/3D8D6IPMHhM/0.jpg" alt="YouTube: Hexagons are the Bestagons" />
   </a>
-  &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp;
   <a href="./poster/poster.pdf">
   <img height=250px src="./poster/thumbnail.png" alt="Overview Poster" />
   </a>
@@ -99,7 +99,7 @@ are [available as Verilog files](https://github.com/marcelwa/fiction/tree/main/b
 
 ## Reference
 
-In case you are using the Bestagon gate library in your work, we would be thankful if you referred to it by citing the
+In case you are using the *Bestagon* gate library in your work, we would be thankful if you referred to it by citing the
 following publication:
 
 ```bibtex
